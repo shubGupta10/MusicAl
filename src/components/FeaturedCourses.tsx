@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CardData from '../data/music_courses.json'
 import { BackgroundGradient } from './ui/background-gradient'
 
+//using interface for courses
 interface Course{
         id: number,
         title: string,
